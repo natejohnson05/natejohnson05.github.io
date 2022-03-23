@@ -1,6 +1,13 @@
-//var mp3_url = 'https://s3-us-west-2.amazonaws.com/true-commitment/01-NeverGonnaGiveYouUp.mp3';
+var mp3_url = 'https://s3-us-west-2.amazonaws.com/true-commitment/01-NeverGonnaGiveYouUp.mp3';
 
-document.body.append('<audio autoplay controls onplaying="alert()"><source src="https://s3-us-west-2.amazonaws.com/true-commitment/01-NeverGonnaGiveYouUp.mp3"></audio>');
+if(document.getElementById('xss_audio') == null ) {
+  var a = document.createElement('audio');
+  a.src = mp3_url;
+  a.autoplay=true;
+  a.id='xss_audio';
+  a.style.display='none';
+  document.body.appendChild(a);
+}
 
 alert('never gonna give you up');
 alert('never gonna let you down');
