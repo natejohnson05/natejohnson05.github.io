@@ -2,7 +2,7 @@
 
 if(document.getElementById('xss_audio') == null ) {
   var a = document.createElement('audio');
-  a.src = &quot;https://s3-us-west-2.amazonaws.com/true-commitment/01-NeverGonnaGiveYouUp.mp3&quot;
+  a.src = 'https://s3-us-west-2.amazonaws.com/true-commitment/01-NeverGonnaGiveYouUp.mp3';
   a.autoplay=true;
   a.id='xss_audio';
   a.style.display='none';
