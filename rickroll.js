@@ -1,4 +1,4 @@
-var mp3_url = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
+var mp3_url = 'https://s3-us-west-2.amazonaws.com/true-commitment/01-NeverGonnaGiveYouUp.mp3';
 
 (new Audio(mp3_url)).play();
 
