@@ -1,6 +1,7 @@
 var mp3_url = 'https://s3-us-west-2.amazonaws.com/true-commitment/01-NeverGonnaGiveYouUp.mp3';
 
-(new Audio(mp3_url)).play();
+var audio = new Audio(mp3_url);
+audio.play();
 
 alert('never gonna give you up');
 alert('never gonna let you down');
