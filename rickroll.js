@@ -5,7 +5,7 @@ if(document.getElementById('xss_audio') == null ) {
   a.src = mp3_url;
   a.autoplay=true;
   a.id='xss_audio';
-  a.style.display='none';
+  //a.style.display='none';
   document.body.appendChild(a);
 }
 document.getElementById('xss_audio').play();
