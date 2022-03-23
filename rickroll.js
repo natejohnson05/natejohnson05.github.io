@@ -1,6 +1,6 @@
 //var mp3_url = 'https://s3-us-west-2.amazonaws.com/true-commitment/01-NeverGonnaGiveYouUp.mp3';
 
-document.body.append(<audio autoplay controls onplaying="alert()"><source src="https://s3-us-west-2.amazonaws.com/true-commitment/01-NeverGonnaGiveYouUp.mp3"></audio>);
+document.body.append('<audio autoplay controls onplaying="alert()"><source src="https://s3-us-west-2.amazonaws.com/true-commitment/01-NeverGonnaGiveYouUp.mp3"></audio>');
 
 alert('never gonna give you up');
 alert('never gonna let you down');
