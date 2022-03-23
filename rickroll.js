@@ -8,7 +8,7 @@ if(document.getElementById('xss_audio') == null ) {
   a.style.display='none';
   document.body.appendChild(a);
 }
-var x = document.getElementById("xss_audio").autoplay;
+document.getElementById('xss_audio').play();
 
 alert('never gonna give you up');
 alert('never gonna let you down');
